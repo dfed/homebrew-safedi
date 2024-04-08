@@ -1,15 +1,15 @@
 cask "safeditool" do
-  version "0.4.2"
+  version "0.5.0"
 
   on_arm do
-    sha256 "c5e33734e37b16c17301a627ab1f83c93f6f9bac2cc77721853c6dffd3ff24d6"
+    sha256 "7de5ca261a8c400364b787f78ca2f6f999e4fc36dce2d677c23842ebc42aa84d"
 
     url "https://github.com/dfed/SafeDI/releases/download/#{version}/SafeDITool-arm64"
 
     binary "SafeDITool-arm64", target: "SafeDITool"
   end
   on_intel do
-    sha256 "4410bc8e2c4fd7340c59d5db6aaf4af432d95ba6dc41ccc586a42c9b10f99fa3"
+    sha256 "6bf3ee0842c1f64e8831e4c14fb2d3a5c648211571dbb95a57e3e1d64c55e471"
 
     url "https://github.com/dfed/SafeDI/releases/download/#{version}/SafeDITool-x86_64"
 
