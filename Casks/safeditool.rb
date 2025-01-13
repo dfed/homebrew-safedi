@@ -17,6 +17,6 @@ cask "safeditool" do
   end
 
   name "SafeDITool"
-  desc "Code parsing and generation tool for SafeDI: compile-time safe DI in Swift"
+  desc "Code parsing and generation tool for SafeDI: compile-time-safe DI in Swift"
   homepage "https://github.com/dfed/SafeDI"
 end
