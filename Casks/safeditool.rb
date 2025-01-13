@@ -13,7 +13,7 @@ cask "safeditool" do
 
     url "https://github.com/dfed/SafeDI/releases/download/#{version}/SafeDITool-x86_64"
 
-    binary "SafeDITool-arm64", target: "SafeDITool"
+    binary "SafeDITool-x86_64", target: "SafeDITool"
   end
 
   name "SafeDITool"
